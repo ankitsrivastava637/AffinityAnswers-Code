@@ -7,7 +7,9 @@ SOLUTION :
 Goal:
 Here we wish to check degree of profanity against black people by twitter users. 
 
-Assumption : 
+
+
+ASSUMPTIONS : 
 
 1. There are 2 csv files :  
 
