@@ -1,15 +1,15 @@
 # AffinityAnswers - Degree of Profanity by Twitter Users
 
-PROBLEM STATEMENT :
+#PROBLEM STATEMENT :
  Imagine there is a file full of Twitter tweets by various users and you are provided a set of words that indicates racial slurs. Write a program that can indicate the degree of profanity for each sentence in the file. Write in any programming language (preferably in Python)-make any assumptions
 
-SOLUTION :
+#SOLUTION :
 Goal:
 Here we wish to check degree of profanity against black people by twitter users. 
 
 
 
-ASSUMPTIONS : 
+#ASSUMPTIONS : 
 
 1. There are 2 csv files :  
 
@@ -35,7 +35,7 @@ ASSUMPTIONS :
   7. Each Racial Slur words is just a single word. No combination of two or three words is used as a racial slur word.
 
 
-Program Files Description :
+#Program Files Description :
 
     1. Black_Racial_Slurs.csv :  File contaning racial slur words against black people.
     2. tweets_blm.csv : All tweets by various users on black lives matter campaign.
@@ -50,7 +50,7 @@ Program Files Description :
           A score very close to 0 is low level of degree of profanity by an user_id.
           A score very close to 100 is very high level of degree of profanity by an user_id
 
-Limitations of program:
+#Limitations of program:
 1. The profanity score in final output file for each user doesn't neccessarily mean offensive tweet, as the context of tweet(sentence) is not taken into consideration by the program.
 ex : A user might use certain words in different context to refer about an incident where such words were used by a third person.
 2. The metric/method used has it's flaws, as it's not the best way to calculate the profainity. Different features can be used on big dataset for more robust     analysis. 
