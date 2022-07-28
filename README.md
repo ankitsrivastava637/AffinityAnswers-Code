@@ -35,7 +35,7 @@ Here we wish to check degree of profanity against black people by twitter users.
   7. Each Racial Slur words is just a single word. No combination of two or three words is used as a racial slur word.
 
 
-#Program Files Description :
+#PROGRAM FILES DESCRIPTION :
 
     1. Black_Racial_Slurs.csv :  File contaning racial slur words against black people.
     2. tweets_blm.csv : All tweets by various users on black lives matter campaign.
@@ -50,7 +50,10 @@ Here we wish to check degree of profanity against black people by twitter users.
           A score very close to 0 is low level of degree of profanity by an user_id.
           A score very close to 100 is very high level of degree of profanity by an user_id
 
-#Limitations of program:
+
+
+#LIMITATIONS OF THE PROGRAM:
+
 1. The profanity score in final output file for each user doesn't neccessarily mean offensive tweet, as the context of tweet(sentence) is not taken into consideration by the program.
 ex : A user might use certain words in different context to refer about an incident where such words were used by a third person.
 2. The metric/method used has it's flaws, as it's not the best way to calculate the profainity. Different features can be used on big dataset for more robust     analysis. 
