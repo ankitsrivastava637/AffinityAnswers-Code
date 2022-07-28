@@ -1,6 +1,14 @@
 import pandas as pd 
 
 def profanity_scores(tweets, black_racial_slurs, tweet_preprocessed):
+    """
+    Args : 
+        3 dataframes
+
+    Result :
+        a dataframe conatining 3 columns : user_id, degree_of_profanity, tweets
+
+    """
       
     tweet_s = tweets['tweet_content']
     
