@@ -35,7 +35,7 @@ Assumption :
 
 Program Files Description :
 
-    1. Black_Racial_Slurs.csv :   file racial slur words against black people.
+    1. Black_Racial_Slurs.csv :  File contaning racial slur words against black people.
     2. tweets_blm.csv : All tweets by various users on black lives matter campaign.
     3. preprocess.py :  Splits user_id and their tweet into two columns of a dataframe.
     4. clean_proccess.py :  Cleans tweets : Removes url links from each tweet, removes stopwords, removes punctuations from each tweet.
