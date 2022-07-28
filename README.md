@@ -35,18 +35,18 @@ Assumption :
 
 Program Files Description :
 
-  1. Black_Racial_Slurs.csv :   file racial slur words against black people.
-  2. tweets_blm.csv : All tweets by various users on black lives matter campaign.
-  3. preprocess.py :  Splits user_id and their tweet into two columns of a dataframe.
-  4. clean_proccess.py :  Cleans tweets : Removes url links from each tweet, removes stopwords, removes punctuations from each tweet.
-  5. profanity.py :   profanity score of tweet by each user_id - calculated by : (total number of racial slur words in each tweet / total number words in each tweet) * 100
-  6. main.py : main file where the code is to be run and all functions are called.
-  7. requirements.txt : All packages to be installed using command 'pip install -r requirements.txt'
-  8. degree_of_profanity.csv :
-        Final output for degree of profanity(racial slurs used) by various users against black people.
-        profanity score range - 0 to 100.
-        A score very close to 0 is low level of degree of profanity by an user_id.
-        A score very close to 100 is very high level of degree of profanity by an user_id
+    1. Black_Racial_Slurs.csv :   file racial slur words against black people.
+    2. tweets_blm.csv : All tweets by various users on black lives matter campaign.
+    3. preprocess.py :  Splits user_id and their tweet into two columns of a dataframe.
+    4. clean_proccess.py :  Cleans tweets : Removes url links from each tweet, removes stopwords, removes punctuations from each tweet.
+    5. profanity.py :   profanity score of tweet by each user_id - calculated by : (total number of racial slur words in each tweet / total number words in each tweet) * 100
+    6. main.py : main file where the code is to be run and all functions are called.
+    7. requirements.txt : All packages to be installed using command 'pip install -r requirements.txt'
+    8. degree_of_profanity.csv :
+          Final output for degree of profanity(racial slurs used) by various users against black people.
+          profanity score range - 0 to 100.
+          A score very close to 0 is low level of degree of profanity by an user_id.
+          A score very close to 100 is very high level of degree of profanity by an user_id
 
 Limitations of program:
 1. The profanity score in final output file for each user doesn't neccessarily mean offensive tweet, as the context of tweet(sentence) is not taken into consideration by the program.
