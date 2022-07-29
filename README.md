@@ -60,5 +60,5 @@ ex : A user might use certain words in different context to refer about an incid
 3. The stopwords used for text cleaning should be limited, as removing stopwords like 'not' might change the context of sentence, if a more robust analysis is done
 through a different way. 
 4. The program doesn't takes into consideration of any spelling/grammatical errors in tweets or racial words.
-5. Only csv files are used for tweets file and racial word file. Not adjustment for json file/text file, etc.
+5. Only csv files are used for tweets file and racial word file. No adjustment for json file/text file, etc in the program.
 
