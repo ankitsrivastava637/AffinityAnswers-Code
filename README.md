@@ -29,8 +29,8 @@ Here we wish to check degree of profanity against black people by twitter users.
 
   2. All racial slurs, user_ids, and tweets are in the English language
   3. Each user has only one tweet.
-  4. No null values in both files.
-  5. No duplicate values in both files.
+  4. No null row values in both files.
+  5. No duplicate row values in both files.
   6. No spelling errors in both files.
   7. Each Racial Slur words is just a single word. No combination of two or three words is used as a racial slur word.
 
