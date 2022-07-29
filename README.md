@@ -27,12 +27,13 @@ Here we wish to check degree of profanity against black people by twitter users.
           Each value is of pattern : '@user_id : their tweet'
 
 
-  2. All racial slurs, user_ids, and tweets are in the English language
+  2. Conetonts of both(input csv files)  are in the English language
   3. Each user has only one tweet.
   4. No null row values in both files.
-  5. No duplicate row values in both files.
-  6. No spelling errors in both files.
+  5. No duplicate row values in both(input csv files) files.
+  6. No spelling/grammatical errors in both(input csv files) files.
   7. Each Racial Slur words is just a single word. No combination of two or three words is used as a racial slur word.
+  8. Each Racial Words is equally profane. No difference in their degree of profainity. 
 
 
 #PROGRAM FILES DESCRIPTION :
@@ -41,7 +42,8 @@ Here we wish to check degree of profanity against black people by twitter users.
     2. tweets_blm.csv : All tweets by various users on black lives matter campaign.
     3. preprocess.py :  Splits user_id and their tweet into two columns of a dataframe.
     4. clean_proccess.py :  Cleans tweets : Removes url links from each tweet, removes stopwords, removes punctuations from each tweet.
-    5. profanity.py :   profanity score of tweet by each user_id - calculated by : (total number of racial slur words in each tweet / total number words in each tweet) * 100
+    5. profanity.py :   profanity score of tweet by each user_id - 
+                        calculated by : (total number of racial slur words in each tweet / total number words in each tweet) * 100
     6. main.py : main file where the code is to be run and all functions are called.
     7. requirements.txt : All packages to be installed using command 'pip install -r requirements.txt'
     8. degree_of_profanity.csv :
