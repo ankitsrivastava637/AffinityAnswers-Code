@@ -27,7 +27,7 @@ Here we wish to check degree of profanity against black people by twitter users.
           Each value is of pattern : '@user_id : their tweet'
 
 
-  2. Conetonts of both(input csv files)  are in the English language
+  2. Contents of both(input csv files)  are in the English language
   3. Each user has only one tweet.
   4. No null row values in both files.
   5. No duplicate row values in both(input csv files) files.
