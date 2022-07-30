@@ -49,8 +49,8 @@ Here we wish to check degree of profanity against black people by twitter users.
     8. degree_of_profanity.csv :
           Final output for degree of profanity(racial slurs used) by various users against black people.
           profanity score range - 0 to 100.
-          A score very close to 0 is low level of degree of profanity by an user_id.
-          A score very close to 100 is very high level of degree of profanity by an user_id
+          A score very close to 0 is low level of degree of profanity for a tweet by an user_id.
+          A score very close to 100 is very high level of degree of profanity for a tweet by an user_id.
 
 
 
