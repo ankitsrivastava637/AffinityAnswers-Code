@@ -28,7 +28,7 @@ Here we wish to check degree of profanity against black people by twitter users.
 
 
   2. Contents of both(input csv files)  are in the English language
-  3. Each user has only one tweet.
+  3. Each user has only one tweet written in one sentence.
   4. No null row values in both files.
   5. No duplicate row values in both(input csv files) files.
   6. No spelling/grammatical errors in both(input csv files) files.
